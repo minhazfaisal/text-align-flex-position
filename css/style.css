@@ -1,0 +1,39 @@
+.one, .two, .three, .four{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+/*one*/
+.one{}
+.one h3{
+  padding: 100px 0;
+  text-align: center;
+}
+
+/*two*/
+.two{
+  padding: 100px 0;
+  text-align: center;
+}
+.two h3{}
+
+/*three*/
+.three{
+  min-height: 233px;
+  position: relative;
+}
+.three h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*four*/
+.four{}
+
+.four h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 233px;
+}
